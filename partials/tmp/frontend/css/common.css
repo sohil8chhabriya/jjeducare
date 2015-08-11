@@ -1,0 +1,320 @@
+/* CSS Document */
+body {
+	padding: 0px;
+	margin: 0px;
+	font-size:75%;
+}
+.ajaxLoading {
+	position:absolute;
+	top:45%;
+	left:50%;
+	border:1px solid #000;
+	width:150px;
+	display:none;
+	padding:10px;
+	margin-left:-75px;
+}
+#headerDiv {
+	 background: none repeat scroll 0 0 #F5F5F5;
+    height: 72px;
+    width: 100%;
+	/*background: none repeat scroll 0 0 #F5F5F5;
+	border-bottom: 1px solid #E5E5E5;
+	height: 71px;
+	width: 100%;*/
+	padding: 0px;
+	margin: 0px;
+}
+#loggedUserDetails {
+	width:400px;
+	height:51px;
+	position:absolute;
+	top:0;
+	right:0;
+	text-align:right;
+	padding-right: 15px;
+	padding-top:20px;
+	vertical-align:middle;
+	font-size:14px;
+}
+#menuDiv {
+	background: none repeat scroll 0 0 #F5F5F5;
+	border-bottom: 1px solid #E5E5E5;
+	padding:0px;
+	margin: 0px;
+	font:11px Verdana,Arial;
+	border-bottom: 1px solid #E5E5E5;
+	width:100%;
+	height:27px;
+}
+#contentDiv {
+	border: solid 1px #000000;
+	width:100%;
+}
+.link-logout {
+	text-decoration:none;
+	/*color:#000000;*/
+}
+.link-logout:hover {
+	text-decoration:underline;
+}
+#coHeading {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:36px;
+	/*margin: 10px 0px 5px 50px;*/
+	/*margin: 0px 0px 5px 50px;*/
+	/*background: url("/theme/default/images/logobg.jpg") repeat scroll 0 0 transparent;*/
+    display: block;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+#logosec {
+   /* background: url("/theme/default/images/crvlogo.jpg") no-repeat scroll right top transparent;*/
+    display: block;
+    height: 78px;
+    position: relative;
+    width: 450px;
+}
+#logo {
+    margin: 0 96px 0 0;
+    padding: 15px 0 0 25px;
+}
+.logoname {
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#footerDiv {
+	width: 300px;
+	height: 26px;
+	position: absolute;
+	top: 98%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -13px;
+	text-align:center;
+}
+.footer {
+	margin-top:5px;
+    height: 26px;
+    padding-top: 10px;
+    text-align: center;
+}
+input[type="email"], input[type="password"], input[type="text"], input[type="url"] {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	-moz-box-sizing: border-box;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	border-radius: 1px 1px 1px 1px;
+	border-right: 1px solid #D9D9D9;
+	border-style: solid;
+	border-width: 1px;
+	display: inline-block;
+	height: 25px;
+	margin: 0;
+	padding-left: 8px;
+}
+input[type="email"]:hover, input[type="password"]:hover, input[type="text"]:hover, input[type="url"]:hover {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+	border-right: 1px solid #B9B9B9;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="url"]:focus {
+	border: 1px solid #4D90FE;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+	outline: medium none;
+}
+#tabs {
+	margin-top: 0.5em;
+	font-size:12px;
+}
+#tabs li .ui-icon-close {
+	float: left;
+	margin: 0.4em 0.2em 0 0;
+	cursor: pointer;
+}
+.tabContent {
+	margin:0px;
+	padding:2px;
+	overflow:scroll;
+}
+.helpRemark {
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FF0000;
+	padding-left:50px;
+}
+.g-button-submit {
+	background-color: #616161;
+	background-image: -moz-linear-gradient(center top , #616161, #E9E9E9);
+	border: 1px solid #6C6C6C;
+	color: #FFFFFF;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	width:auto;
+	height:25px;
+}
+.g-button-submit:hover {
+	background-color: #B3B3B3;
+	background-image: -moz-linear-gradient(center top , #616161, #B3B3B3);
+	border: 1px solid #AEAEAE;
+	color: #FFFFFF;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.labelHeading{
+color:#000;
+font-weight: bold;	
+}
+
+.compulsoryMark {
+	color:#ff0000;
+	padding-left:5px;
+	vertical-align:top;
+}
+.frmErrMessage {
+	border:1px solid #FF0000;
+	color:#FF0000;
+	display:none;
+}
+.txtLf {
+	text-align:left;
+}
+.txtCt {
+	text-align:center;
+}
+.txtRt {
+	text-align:right;
+}
+.txtJf {
+	text-align:justify;
+}
+.txtBld {
+	font-weight:bold;
+}
+.listTable {
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+.listTable th {
+	background-color:#FF6600;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid #CCCCCC;
+	color:#FFFFFF;
+	text-align: center;
+}
+.listTable td {
+	font-size:11px;
+	border:1px solid #CCCCCC;
+}
+.listTable td.txtRt {
+	padding-right: 5px;
+}
+.listTable td {
+	padding-left: 5px;
+}
+.hide {
+	display:none;
+}
+.link {
+	text-decoration:none;
+}
+.link:hover {
+	text-decoration:underline;
+}
+.evenPointer:hover {
+	background-color:#CCCCCC;
+	color:#000000;
+	cursor:pointer;
+}
+.searchFormDiv {
+	border-bottom: 1px solid #000;
+	width:100%;
+	margin-top:8px;
+}
+.moduleListDiv {
+	width:100%;
+	margin-top:2px;
+}
+.moduleFormDiv {
+	width:100%;
+	border: 1px solid;
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+	margin-top:2px;
+}
+.arrow {
+	margin:0 3px;
+	vertical-align:middle;
+}
+.actions .pager {
+	border:none;
+}
+.clrRed {
+	color:#FF0000;
+}
+}
+.autocomplete-w1 {
+	background:url(../../theme/default/images/shadow.png) no-repeat bottom right;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:6px 0 0 6px;
+	/* IE6 fix: */
+	_background:none;
+	_margin:1px 0 0 0;
+}
+.autocomplete {
+	border:1px solid #999;
+	background:#FFF;
+	cursor:default;
+	text-align:left;
+	max-height:350px;
+	overflow:auto;
+	margin:-6px 6px 6px -6px;
+	/* IE6 specific: */
+	_height:350px;
+	_margin:0;
+	_overflow-x:hidden;
+}
+.autocomplete .selected {
+	background:#F0F0F0;
+}
+.autocomplete div {
+	padding:2px 5px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.autocomplete strong {
+	font-weight:normal;
+	color:#3399FF;
+}
+.fldCap {
+	font-weight:bold;
+	font-size:12px;
+	font-family:"Verdana,Arial,Helvetica,sans-serif";
+}
+.fldDispText {
+	font-family: "Verdana,Arial,Helvetica,sans-serif";
+	font-weight:400;
+	font-size:11px;
+}
+.whiteTxt
+{
+	color:#FFFFFF;
+}

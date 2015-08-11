@@ -1,0 +1,702 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+* {
+
+	padding:0;
+
+	margin:0;
+
+	outline:0;
+
+}
+
+body {
+
+	background-repeat:repeat-x;
+
+	font-family: Arial, sans-serif;
+
+	font-size:12px;
+
+	line-height:19px;
+
+	color:#A8BBD5;
+
+	background-color: #fff;
+
+	background-image: url(../images/bg.jpg);
+
+	text-align: justify;
+
+}
+
+.samplediv{width:100%; float:left;}
+
+p{ text-align:justify; }
+
+input, textarea, select {
+
+	font-family: Arial, sans-serif;
+
+	font-size:11px;
+
+}
+
+table{ width:100%;}
+
+hr{
+
+	border-bottom:solid #d1d1d1 1px;
+
+	border-top: solid #fff 1px;
+
+	border-left: solid #fff 1px;
+
+	border-right: solid #fff 1px;
+
+	width: 100%;
+
+	margin: 10px 0px 10px 0px;
+
+}
+
+a img {
+
+	border:0;
+
+	outline:none;
+
+}
+
+a {
+
+	color:#000;
+
+	text-decoration: none;
+
+	cursor:pointer;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+	color: #FF6501;
+
+}
+
+.left, .alignleft {
+
+	float:left;
+
+	display:inline;
+
+}
+
+.right, .alignright {
+
+	float:right;
+
+	display:inline;
+
+}
+
+.cl {
+
+	font-size:0;
+
+	line-height:0;
+
+	clear:both;
+
+	display:block;
+
+	height:0;
+
+}
+
+.al {
+
+	text-align: left;
+
+}
+
+.ar {
+
+	text-align: right;
+
+}
+
+.ac {
+
+	text-align: center;
+
+}
+
+/* ===================================================================== */
+
+
+
+h1, h2, h3, h4, h5, h6{ margin:0px; padding:0px; line-height:normal; font-size:100%; font-weight:normal;}
+
+
+
+.rightdiv{
+
+	width:215px;
+
+	float:left;
+
+	overflow:hidden;
+
+	padding-right: 15px;
+
+}
+
+.title{
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	font-size:17px;
+
+	color:#000;
+
+	border-bottom:2px solid #ff6501;
+
+	padding-bottom:5px;
+
+	margin-bottom:10px;
+
+	width: 100%;
+
+}
+
+.title-black{
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	font-size:17px;
+
+	font-weight:bold;
+
+	color:#000;
+
+	padding-bottom:5px;
+
+	/* [disabled]margin-bottom:10px; */
+
+	width: 100%;
+
+}
+
+
+
+/* =================================== list style ================================== */
+
+	
+
+#mainul {
+
+	list-style:none;
+
+	padding-top: 0px;
+
+	margin:0px;
+
+	line-height: normal;
+
+	padding-left:5px;
+
+}
+
+.mainli {
+
+	background-image:url(../images/icon/listicon.jpg);
+
+	background-repeat:no-repeat;
+
+	background-position:top left;
+
+	list-style:none;
+
+	padding-bottom:0px;
+
+	margin-top: 0px;
+
+	padding-left:20px;
+
+	line-height: 22px;
+
+	cursor: default; 
+
+}
+
+
+
+
+
+/* ===================================================================== */
+
+.bodydiv {
+
+	width:100%;
+
+	/* [disabled]overflow:hidden; */
+
+}
+
+.maindiv {
+
+	margin:0px auto;
+
+	width:960px;
+
+	color: #000;
+
+	overflow: hidden;
+
+}
+
+.bodydivfooter{
+
+	width:100%; background-image:url(../images/footer.jpg); background-repeat:repeat-x; height:92px;
+
+ 
+
+}
+
+.maindivfooter {
+
+	margin:0px auto;
+
+	width:960px;
+
+	color: #000;
+
+	/* [disabled]overflow: hidden; */
+
+	padding-top: 10px;
+
+}
+
+/* ===================================================================== */
+
+
+
+.tophead {
+
+	width:960px;
+
+	height:100px;
+
+	float:left;
+
+}
+
+.logodiv {
+
+	width:240px;
+
+	height:100px;
+
+}
+
+/* ===================================================================== */
+
+
+
+.menudiv {
+
+	width:960px;
+
+	height:40px;
+
+	float:left;
+
+	-moz-border-radius: 2px;
+
+	-webkit-border:2px;
+
+	border:2px;
+
+}
+
+/* ===================================================================== */
+
+.banner {
+
+	width:960px;
+
+	padding-top:14px;
+
+	float:left;
+
+}
+
+.bannerright {
+
+	width:730px;
+
+	height:262px;
+
+	float: left;
+
+}
+
+
+
+/* ===================================================================== */
+
+
+
+
+
+.textdiv{width:960px; float:left; padding-top:10px;}
+
+.cola{
+
+	width:215px;
+
+	padding-right: 20px;
+
+}
+
+.colb{
+
+	width:470px;
+
+}
+
+.colc{width:215px;	padding-left: 15px;}
+
+
+
+/* ================================ Taught of the day ================== */
+
+.spc{
+
+	padding:5px 0px 5px 0px;
+
+	width:100%;
+
+	clear:both;
+
+}
+
+.spantext{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	font-style:italic;
+
+	color:#939393;
+
+	float:right;
+
+	width:100%;
+
+	text-align: right;
+
+}
+
+/* ================================  News & Articles ================== */
+
+.titlenews{
+
+	font-size:13px;
+
+	font-weight:bold;
+
+	color:#d33615;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	width: 100%;
+
+}
+
+.titlenewsdate{
+
+	font-size:11px;
+
+	color:#889194;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.titlenewstext{
+
+	font-size:11px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	line-height:normal;
+
+	padding-top: 5px;
+
+}
+
+.newsli{
+
+	border-bottom:1px solid #ededed;
+
+	float:left;
+
+	padding-bottom: 7px;
+
+	margin-bottom: 8px;
+
+	width: 100%;
+
+}
+
+.newslilast{
+
+	float:left;
+
+	width: 100%;
+
+}
+
+/* ================================   box ====================================== */
+
+.boxonetd{
+
+	width:225px;
+
+	float: left;
+
+	margin-right: 9px;
+
+}
+
+.boxonetda{
+
+	width:225px;
+
+	float: left;
+
+}
+
+.boxone{
+
+	width:200px;
+
+	-webkit-border-radius: 3px 3px 0px 0px;
+
+	-moz-border-radius: 3px 3px 0px 0px;
+
+	border-radius: 3px 3px 0px 0px;
+
+	background-color:#333333;
+
+	height: 25px;
+
+	color: #FFF;
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 17px;
+
+	padding: 5px 5px 4px 15px;
+
+}
+
+.boxonetext{
+
+	/* [disabled]width:226px; */
+
+	-webkit-border-radius: 0px 0px 3px 3px;
+
+	-moz-border-radius: 0px 0px 3px 3px;
+
+	border-radius: 0px 0px 3px 3px;
+
+	border:1px solid #DDDDDD;
+
+	background-color:#F6F6F6;
+
+	border-top:0px none;
+
+	padding: 7px;
+
+}
+
+
+
+
+
+.boxorang{
+
+	width:200px;
+
+	-webkit-border-radius: 3px 3px 0px 0px;
+
+	-moz-border-radius: 3px 3px 0px 0px;
+
+	border-radius: 3px 3px 0px 0px;
+
+	background-color:#ff6600;
+
+	height: 25px;
+
+	color: #FFF;
+
+	font-family: Tahoma, Geneva, sans-serif;
+
+	font-size: 17px;
+
+	padding: 5px 5px 4px 15px;
+
+}
+
+.boxrangtext{
+
+	/* [disabled]width:226px; */
+
+	-webkit-border-radius: 0px 0px 3px 3px;
+
+	-moz-border-radius: 0px 0px 3px 3px;
+
+	border-radius: 0px 0px 3px 3px;
+
+	border:1px solid #DDDDDD;
+
+	background-color:#F6F6F6;
+
+	border-top:0px none;
+
+	padding: 7px;
+
+}
+
+/* ================================ Taught of the day ================== */
+
+.spantest{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	color:#d33615;
+
+	float:right;
+
+	width:100%;
+
+	text-align: right;
+
+	font-weight: bold;
+
+}
+
+
+
+/* ================================ Photo Gallery ================== */
+
+.imagebod{
+
+	border:3px solid #ebebeb;
+
+	margin-right: 3px;
+
+}
+
+/* ================================  footer link ================== */
+
+.linksp{ padding:0px 7px 0px 7px; font-size:13px;  color:#666;}
+
+.linkspicon{ padding:0px 7px 0px 0px; font-size:13px;  color:#666;}
+
+
+
+a.linka{
+
+	color:#666;
+
+	text-decoration:none;
+
+	font-size: 11px;
+
+}
+
+a.linka:hover{ color:#ccc;}
+
+
+
+.footertext{
+
+	color:#666;
+
+	font-size: 11px;
+
+}
+
+.footerlogo{
+	padding-right:20px;
+	padding-top:10px;
+}
+
+
+
+
+
+/* ================================ Topper Students  ================== */
+
+
+
+.stbod{ border:2px solid #dedcdd; }
+
+.stuli{
+
+	background-image:url(../images/line-sp.jpg);
+
+	background-repeat:no-repeat;
+
+	background-position:bottom;
+
+	float:left;
+
+	padding-bottom: 10px;
+
+	width: 100%;
+
+}
+
+.stulilast{
+
+	background-position:bottom;
+
+	float:left;
+
+	width: 100%;
+
+}
+
+
+
+.roundedBorder
+
+{
+
+	-moz-border-radius: 5px;
+
+	border: 1px solid #E6E6E6;
+
+	padding:2px;
+
+}
+
+.hide {
+
+	display:none;
+
+}

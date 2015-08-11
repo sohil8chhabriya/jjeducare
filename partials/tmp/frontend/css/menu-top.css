@@ -1,0 +1,280 @@
+ul.ws_css_cb_menu {
+	background-color:ff6600;
+	width:960px;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	display:block;
+	float: left;
+	height:40px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+ul.ws_css_cb_menu li {
+	border-right: 1px solid #E65D01;
+	display:block;
+	/*	margin:2px 0px 0px 2px;*/
+	float:left;
+}
+ul.ws_css_cb_menu a:hover ul, ul.ws_css_cb_menu a:hover a:hover ul, ul.ws_css_cb_menu a:hover a:hover a:hover ul {
+	display:block;
+}
+ul.ws_css_cb_menu a {
+	display:block;
+	vertical-align:middle;
+	border-width:0px;
+	border-color:#6655ff;
+	border-style:solid;
+	/*	padding:2px;*/
+	_padding-left:0;
+	color: #444444;
+	text-decoration:none;
+	text-align:left;
+	height:19px;
+}
+ul.ws_css_cb_menu span {
+	overflow:hidden;
+}
+ul.ws_css_cb_menu li a:hover, ul.ws_css_cb_menu li a {
+	padding:9px;
+	color:#763319;
+	padding-top:12px;
+}
+ul.ws_css_cb_menum li a:hover, ul.ws_css_cb_menum li a {
+	padding:4px;
+	font-weight: normal;
+	color: #000
+}
+ul.ws_css_cb_menu ul {
+	position: absolute;
+	left:-1px;
+	top:98%;
+	width:160.65px;
+	border-left:1px solid #d5a000;
+	border-bottom:3px solid #d5a000;
+	border-right:3px solid #d5a000;
+	border-top:0px;
+	background-color:#ffffff;
+}
+ul.ws_css_cb_menu ul ul {
+	position: absolute;
+	left:98%;
+	top:-2px;
+}
+ul.ws_css_cb_menu, ul.ws_css_cb_menu ul {
+	margin:0px;
+	list-style:none;
+	padding:0px 0px 0px 0px;
+}
+ul.ws_css_cb_menu a:active, ul.ws_css_cb_menu a:focus {
+	outline-style:none;
+}
+ul.ws_css_cb_menu ul li {
+	float: left;
+	width: 150px;
+}
+ul.ws_css_cb_menu ul a {
+	white-space:nowrap;
+	text-align:left;
+}
+ul.ws_css_cb_menu li:hover {
+	position:relative;
+}
+ul.ws_css_cb_menu li:hover>a {
+	background-color:#fff;
+	color: #000;
+	border-color:#665500;
+	border-style:solid;
+	text-decoration:none;
+}
+ul.ws_css_cb_menu li a:hover {
+	position:relative;
+	background-color:#fff;
+	color: #000;
+	text-decoration:none;
+	border-color:#665500;
+	border-style:solid;
+}
+ul.ws_css_cb_menum li a:hover {
+	background-color: #ffc000
+}
+ul.ws_css_cb_menu img {
+	border: none;
+	float:left;
+	margin-right:4px;
+	width:16px;
+	height:16px;
+}
+ul.ws_css_cb_menu ul img {
+	width:16px;
+	height:16px;
+}
+ul.ws_css_cb_menu ul, ul.ws_css_cb_menu a:hover ul ul {
+	display:none;
+	z-index:99999;
+}
+ul.ws_css_cb_menu li:hover>ul {
+	display:block
+}
+ul.ws_css_cb_menu span {
+	display:block;
+	padding-right:11px;
+	background-image:url(../images/menu/arrow_down.gif);
+	background-position:right center;
+	background-repeat: no-repeat;
+}
+/* CSS for TABLE Tags for IE 6 and Lower START */
+ul.ws_css_cb_menu li a table, ul.ws_css_cb_menu li a:hover table {
+	border-collapse:collapse;
+	margin:-4px 0px 0px -9px;
+	border:0px;
+	padding:0px;
+}
+ul.ws_css_cb_menu li a table tr td, ul.ws_css_cb_menu li a:hover table tr td {
+	padding:0px;
+	border:0px;
+}
+ul.ws_css_cb_menu li a table ul, ul.ws_css_cb_menu li a:hover table ul {
+	border-collapse:collapse;
+	padding:0px;
+	margin:-4px 0px 0px -9px;
+}
+ul.ws_css_cb_menu ul span, ul.ws_css_cb_menu a:hover table span {
+	background-image:url(../images/menu/arrow_down.gif);
+}
+ul.ws_css_cb_menu table a:hover span, ul.ws_css_cb_menu table a:hover a:hover span, ul.ws_css_cb_menu table a:hover a:hover a:hover span {
+	background-image:url(../images/menu/arrow_down.gif);
+}
+ul.ws_css_cb_menu table a:hover table span, ul.ws_css_cb_menu table a:hover a:hover table span {
+	background-image:url(../images/menu/arrow_down.gif);
+}
+/* CSS for TABLE Tags for IE 6 and Lower END */
+/* CSS for All the Menus END */
+
+/* Video Menu Starts - Our Second Menu, by using the above class - this is just to change the colors and the height, width of the menu */
+ul.videoCssMenu {
+	font-size: 12px;
+	background-color:#ff6600;
+	font-family:Arial, Helvetica, sans-serif;
+	-moz-border-radius: 2px;
+	-webkit-border:2px;
+	border:2px;
+}
+ul.videoCssMenu .videoMenuTitleImage {
+	margin: -2px 0px 0px -2px;
+	width:79px;
+	height:30px;
+}
+ul.videoCssMenu ul {
+	left:0px;
+	background-color: #333333;
+	width:280px;
+	border-left:0px;
+	border-bottom:1px solid #6e2a02;
+	border-right:3px solid #6e2a02;
+}
+ul.videoCssMenu li a {
+	/*	padding:5px !important;*/
+	color:#fff;
+}
+ul.videoCssMenu ul li a {
+	color: #fff;
+}
+ul.videoCssMenu ul li {
+	width:143px;
+	float: left;
+	height: 40px;
+}
+ul.videoCssMenu li:hover>a, ul.videoCssMenu li a:hover {
+	background-color:#333333;
+	border-color:#fff;
+	/*	padding:5px !important;
+*/	color:#fff;
+}
+ul.videoCssMenu li ul li:hover>a, ul.videoCssMenu li ul li a:hover {
+	background-color:#ff6600;
+	border-color:#fff;
+	padding:5px;
+	color:#fff;
+}
+/* ======================================================================== */
+
+
+.searchbox {
+	display:block;
+	vertical-align:middle;
+	border-width:0px;
+	border-color:#D6D6D6;
+	border-style:solid;
+	/*	padding:2px;*/
+	_padding-left:0;
+	color: #444444;
+	text-decoration:none;
+	text-align:left;
+	/* [disabled]height:30px;
+*/
+	line-height: 18px;
+	padding-top: 8px;
+	padding-right: 7px;
+	border-right: none;
+}
+.searchbutton {
+	width:62px;
+	height:25px;
+	background-color:#333333;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	margin:0px;
+	cursor:pointer;
+	padding:0px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	float:left;
+}
+.searchtextbox { width:168px;
+	 
+	height:19px;
+	background-color:#fff;
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	margin:0px;
+	padding:0px;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+float:left;
+padding:3px;
+}
+
+.backbutton {
+	width:62px;
+	height:25px;
+	background-color:#333333;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	margin:0px;
+	cursor:pointer;
+	padding:0px;
+	border-radius: 5px 5px 5px 5px;
+}
